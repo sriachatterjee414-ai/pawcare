@@ -1,0 +1,23 @@
+{
+  "expo": {
+    "name": "PawCare",
+    "slug": "pawcare",
+    "version": "0.1.0",
+    "orientation": "portrait",
+    "scheme": "pawcare",
+    "userInterfaceStyle": "light",
+    "newArchEnabled": true,
+    "plugins": ["expo-router", "expo-image-picker"],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "backgroundColor": "#FFF5F0"
+      }
+    },
+    "web": {
+      "bundler": "metro"
+    }
+  }
+}
